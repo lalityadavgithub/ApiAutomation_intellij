@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel Test Suite" parallel="methods" thread-count="3">
+    <test name="Test1">
+        <classes>
+            <class name="hlflapi.CustomerRecharge_Services">
+
+            </class>
+        </classes>
+    </test>
+</suite>
